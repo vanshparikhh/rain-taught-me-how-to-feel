@@ -17,7 +17,7 @@ a{color:inherit;text-decoration:none}
 .navin{max-width:1160px;margin:auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between}
 .brand{font-weight:700;letter-spacing:.12em;font-size:13px}.links{display:flex;gap:24px;font:600 12px Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em}
 .hero{min-height:100vh;display:grid;place-items:center;padding:130px 24px 80px}
-.hero-grid{max-width:1160px;width:100%;display:grid;grid-template-columns:1.1fr .9fr;gap:70px;align-items:center}
+.hero-grid{width:100%;max-width:1200px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
 .kicker{font:700 12px Arial,sans-serif;letter-spacing:.25em;text-transform:uppercase;color:var(--accent)}
 h1{font-size:clamp(52px,8vw,104px);line-height:.92;margin:18px 0 25px;font-weight:500;letter-spacing:-.045em}
 .subtitle{font-size:21px;color:var(--muted);max-width:620px}
@@ -57,16 +57,43 @@ footer{padding:40px 24px;border-top:1px solid var(--line);font:12px Arial,sans-s
 
 <header class="hero">
   <div class="hero-grid">
+
     <div>
-      <div class="kicker">A book by Parikh Vansh</div>
-      <h1>RAIN<br>TAUGHT ME<br>HOW TO FEEL</h1>
-      <p class="subtitle">Some feelings are never meant to be explained. They're meant to be felt.</p>
+      <div class="kicker">A BOOK BY PARIKH VANSH</div>
+
+      <h1>
+        RAIN<br>
+        TAUGHT ME<br>
+        HOW TO FEEL
+      </h1>
+
+      <p class="subtitle">
+        Some feelings are never meant to be explained.
+        They're meant to be felt.
+      </p>
+
+      <div class="cta">
+        <a class="btn dark" href="#buy">Buy the Book</a>
+        <a class="btn light" href="#book">Explore the Book</a>
+      </div>
+    </div>
+
+    <div class="cover-wrap">
+      <img
+        class="real-cover"
+        src="images/rain_taught_me_how_to_feel_cover_page.png"
+        alt="RAIN TAUGHT ME HOW TO FEEL by Parikh Vansh">
+    </div>
+
+  </div>
+</header>
       <div class="cta"><a class="btn dark" href="#buy">Buy the Book</a><a class="btn light" href="#book">Explore the Book</a></div>
     </div>
-    <div class="cover-wrap"><div class="book">
-      <div class="book-title">Rain<br>Taught Me<br>How to Feel</div>
-      <div class="book-author">Parikh Vansh</div>
-    </div></div>
+    <div class="cover-wrap">
+  <img class="real-cover"
+       src="images/rain_taught_me_how_to_feel_cover_page.png"
+       alt="RAIN TAUGHT ME HOW TO FEEL by Parikh Vansh">
+</div>
   </div>
 </header>
 
